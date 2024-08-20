@@ -46,7 +46,6 @@
 }
 
 .team__member-social span {
-    border: 1px solid;
     color: var(--primary-color);
 }
 
@@ -63,3 +62,7 @@
     align-items: center;
     column-gap: 1.5rem;
 }
+
+.light-theme .team__img {
+    background: var(--btn-secondary-bg);
+  }
